@@ -1,0 +1,9 @@
+# assigning value of local variable to global
+a=10
+print(id(a))
+def something():
+    a=9
+    print('local',a)
+    globals()['a']=15
+something()
+print('global', a)
