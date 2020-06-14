@@ -1,0 +1,6 @@
+# keyword length argument
+def person(name,**data):
+    print('name', name)
+    for i,j in data.items():
+        print(i,j)
+person('prashant',age=26,city='Bangalore',mob=6383500648)
