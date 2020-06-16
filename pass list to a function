@@ -1,0 +1,15 @@
+# python code to count number of even,odd numbers in a given list
+from array import*
+def count(lst):
+    even=0
+    odd=0
+    for i in lst:
+        if i%2==0:
+            even+=1
+        else:
+            odd+=1
+    return even,odd
+lst=[12,15,78,8,45,48,56,79,63]
+even,odd=count(lst)
+print("Even: {} and odd: {} ".format(even,odd))
+
