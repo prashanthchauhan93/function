@@ -1,0 +1,9 @@
+# main.py
+def main():
+    print('hello')
+    print('welcome user')
+if __name__=='__main()__':
+    main()
+# calculator.py
+    import main
+print('its time to calculate')
